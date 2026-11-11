@@ -1,0 +1,13 @@
+# One line per third-party work:  Title | Author | Licence | URL
+# This file is the SINGLE SOURCE for assets/credits.txt, CREDITS.md and the credit block of the store listing
+# (tools/extract_credits.py builds them). The text "Changes made" of every work lives in MODS inside extract_credits.py.
+# Do not guess a licence: a wrong licence line is a false declaration.
+FREE Survival Character (+11 textures) | Arberry (CGTrader) | CGTrader Royalty Free License (no AI) | https://www.cgtrader.com/3d-models/character/man/survival-character
+Parachute Simple | sxnneh (https://sketchfab.com/Sxnneh) | CC-BY-4.0 | https://sketchfab.com/3d-models/parachute-simple-030a235d6f314a86bebc33f322c0e71c
+Human character with jumping animation | LukeDale65 (https://sketchfab.com/LukeDale65) | CC-BY-4.0 | https://sketchfab.com/3d-models/human-character-with-jumping-animation-8dc73a1346424e53ad02fb05163ead13
+M4 - FPS Weapon Animations Pack (v.1) | BarcodeGames (https://sketchfab.com/barcodegames) | CC-BY-4.0 | https://sketchfab.com/3d-models/m4-fps-weapon-animations-pack-v1-662fc74dda2646cfb48fc610705768ef
+T-shirt | Sirenko (https://sketchfab.com/sirenko) | CC-BY-4.0 | https://sketchfab.com/3d-models/t-shirt-00daf5abf6d44db9a310b8264ad0e834
+T-shirt LP | Robin Bad (https://sketchfab.com/u-76) | CC-BY-4.0 | https://sketchfab.com/3d-models/t-shirt-lp-a8381c06f8084c5499865ac7b5e59a0b
+T-SHIRT 3D Model Free | Mohammad Rajabloo (https://sketchfab.com/MohammadRajabloo) | CC-BY-4.0 | https://sketchfab.com/3d-models/t-shirt-3d-model-free-408000a9975a4c34866b42dfaca4fa75
+Sweater Pack | MadeByYeshe (https://sketchfab.com/MadeByYeshe) | CC-BY-4.0 | https://sketchfab.com/3d-models/sweater-pack-50fc69ff7a9a4f91ad721b44e898772d
+Character Jump | SamSilcox (https://sketchfab.com/SamSilcox) | CC-BY-4.0 | https://sketchfab.com/3d-models/character-jump-fd88987f8e5541ada74e222612f5b48b
