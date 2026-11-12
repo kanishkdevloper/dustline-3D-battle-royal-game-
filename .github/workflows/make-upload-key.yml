@@ -1,0 +1,42 @@
+name: Make upload key (one time)
+
+# Run it ONCE by hand if you have no upload key yet: GitHub > Actions > "Make upload key (one time)" > Run workflow.
+# It only runs in a PRIVATE repo (the artifact holds your passwords). Download the artifact "dustline-upload-key" within 1 day,
+# keep dustline-upload.jks + UPLOAD_KEY_SECRETS.txt safe (Drive / password manager), copy the 4 values into
+# Settings > Secrets and variables > Actions, then delete the artifact. NEVER create a second key later: Play Console wants the same upload key.
+on:
+  workflow_dispatch:
+
+jobs:
+  make-key:
+    if: github.event.repository.private == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Create the keystore (passwords are masked in the log)
+        run: |
+          set -e
+          PW="$(openssl rand -hex 16)"
+          echo "::add-mask::$PW"
+          mkdir -p out
+          keytool -genkeypair -keystore out/dustline-upload.jks -alias dustline -keyalg RSA -keysize 2048 -validity 10000 \
+            -storepass "$PW" -keypass "$PW" -dname "CN=Dustline, O=Dustline"
+          B64="$(base64 -w0 out/dustline-upload.jks)"
+          {
+            echo "KEYSTORE_PASSWORD=$PW"
+            echo "KEY_ALIAS=dustline"
+            echo "KEY_PASSWORD=$PW"
+            echo "KEYSTORE_BASE64=$B64"
+          } > out/UPLOAD_KEY_SECRETS.txt
+          echo "Key created. Download the artifact below."
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dustline-upload-key
+          path: out/*
+          retention-days: 1
+          if-no-files-found: error

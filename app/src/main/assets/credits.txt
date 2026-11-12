@@ -1,0 +1,63 @@
+CREDITS & LICENSES
+
+Works marked "CC BY 4.0" are licensed under the Creative Commons Attribution 4.0 International licence: https://creativecommons.org/licenses/by/4.0/
+
+"FREE Survival Character (+11 textures)" by Arberry (CGTrader)
+Source: https://www.cgtrader.com/3d-models/character/man/survival-character
+License: CGTrader Royalty Free License (no AI) - https://help.cgtrader.com/hc/en-us/articles/360015193418
+Changes: Used as the player's survivor character. Converted to the game's own binary mesh format (vertices split at UV / normal seams for OpenGL) and stored scrambled inside the app so that it cannot be extracted as a separate file, as the licence requires. Not used to train or feed any AI.
+
+"Parachute Simple" by sxnneh (https://sketchfab.com/Sxnneh)
+Source: https://sketchfab.com/3d-models/parachute-simple-030a235d6f314a86bebc33f322c0e71c
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Used as the player's parachute. Converted from glTF to the game's own binary mesh format (parachute.bin), texture re-saved as a smaller JPEG, scaled to game metres and re-oriented; colours / texture adjusted for the game.
+
+"Human character with jumping animation" by LukeDale65 (https://sketchfab.com/LukeDale65)
+Source: https://sketchfab.com/3d-models/human-character-with-jumping-animation-8dc73a1346424e53ad02fb05163ead13
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Only the MOTION of the jump clip is used: 14 joint rotations were sampled at 30 fps and re-targeted onto the game's own character rig. No mesh, texture or skeleton of this model is in the game.
+
+"M4 - FPS Weapon Animations Pack (v.1)" by BarcodeGames (https://sketchfab.com/barcodegames)
+Source: https://sketchfab.com/3d-models/m4-fps-weapon-animations-pack-v1-662fc74dda2646cfb48fc610705768ef
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Only the MOTION of the 'Reload' clip is used: 5 joints were sampled (56 frames), re-scaled and re-targeted onto the game's own guns and hands. No mesh or texture of this pack is in the game.
+
+"T-shirt" by Sirenko (https://sketchfab.com/sirenko)
+Source: https://sketchfab.com/3d-models/t-shirt-00daf5abf6d44db9a310b8264ad0e834
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Shown in the in-game store as 'RAGLAN TEE'. Converted to the game's own format, re-fitted to the game's survivor character and skinned to its 11-bone rig, colours / textures reduced, scaled.
+
+"T-shirt LP" by Robin Bad (https://sketchfab.com/u-76)
+Source: https://sketchfab.com/3d-models/t-shirt-lp-a8381c06f8084c5499865ac7b5e59a0b
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Shown in the in-game store as 'HENLEY TEE'. Converted to the game's own format, re-fitted to the game's survivor character and skinned to its 11-bone rig, colours / textures reduced, scaled.
+
+"T-SHIRT 3D Model Free" by Mohammad Rajabloo (https://sketchfab.com/MohammadRajabloo)
+Source: https://sketchfab.com/3d-models/t-shirt-3d-model-free-408000a9975a4c34866b42dfaca4fa75
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Shown in the in-game store as 'WHITE TEE'. Converted to the game's own format, re-fitted to the game's survivor character and skinned to its 11-bone rig, colours / textures reduced, scaled.
+
+"Sweater Pack" by MadeByYeshe (https://sketchfab.com/MadeByYeshe)
+Source: https://sketchfab.com/3d-models/sweater-pack-50fc69ff7a9a4f91ad721b44e898772d
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: Shown in the in-game store as 'OLIVE SWEATER'. Converted to the game's own format, re-fitted to the game's survivor character and skinned to its 11-bone rig, colours / textures reduced, scaled.
+
+"Character Jump" by SamSilcox (https://sketchfab.com/SamSilcox)
+Source: https://sketchfab.com/3d-models/character-jump-fd88987f8e5541ada74e222612f5b48b
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Changes made: No mesh, texture or animation data of this model is contained in the current game; the credit is kept to be safe.
+
+All changes listed under 'Changes made' (or 'Changes') were made by the developer of Dustline. Where a work says it was changed, the version in this game is an adapted version, not the original.
+
+The original authors did not create, review or endorse this game.
+
+Works are provided by their authors under their licences 'as is', without warranties - see the disclaimer in the licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Lobby background, loading screen and menu / HUD icons: created by the developer with ChatGPT (OpenAI, image generation) and used under OpenAI's Terms of Use, which give the user the rights to the output, including commercial use.
+Sounds are generated in code. Game code by the developer.
+Aircraft (passenger jet): designed with AI assistance and owned by the developer (tools/make_plane.py).
+Reload animation motion: see 'M4 - FPS Weapon Animations Pack' above; jump motion: see 'Human character with jumping animation' above.
+Guns (13 weapon models): created procedurally by the developer (tools/make_guns.py), original work.
+Island map: generated by the developer (tools/make_island.py), original work.
+Store clothes (6 pants: BLUE DENIM JEANS, CHARCOAL CARGO PANTS, OLIVE CAMO PANTS, BLACK TRACK PANTS, RED TARTAN PANTS, EMBER FLAME PANTS; 2 T-shirts: DESERT STRIPE TEE, CROSSHAIR V-NECK): designed with AI assistance (Claude, by Anthropic) and owned by the developer - original work, the 3D meshes and colours are generated by code (tools/make_clothes.py); no third-party model, texture or photo is used, no attribution needed.
+Open-source libraries: AndroidX Core / AppCompat (Apache License 2.0, https://www.apache.org/licenses/LICENSE-2.0); Google Mobile Ads SDK and User Messaging Platform SDK (Google, used under Google's terms).

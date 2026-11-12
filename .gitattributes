@@ -1,0 +1,7 @@
+# assets are checked byte-for-byte at start-up (manifest.txt): git must never change their line endings
+app/src/main/assets/** -text
+*.bin binary
+*.gun binary
+*.jpg binary
+*.png binary
+*.jks binary
